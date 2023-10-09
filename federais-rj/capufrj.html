@@ -2,10 +2,109 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.5">
     <title>CAP UFRJ</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        header{
+            height: 90px;
+            background-color: #013f18;
+            display: flex;
+            justify-content: center;
+            align-items: center
+        }
+
+        h1{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 45px;
+            color: white;
+        }
+
+        h3{
+            margin-left: 22px;
+            margin-top: 5px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 30px;
+        }
+
+        .foto{
+            width: 400px;
+            height: 266px;
+            margin-right: 30px;
+        }
+
+
+        .img{
+            margin-left: 20px;
+            margin-right: 20px;
+            margin-top: 5px;
+            margin-bottom: 30px;
+            display: flex;
+            align-items: center;
+            
+        }
+
+        .edital{
+            margin-left: 20px;
+            margin-bottom: 20px;
+        }
+
+        .cursos{
+            margin-left: 24px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+        }
+
+        .amarelo{
+            color: rgb(188, 151, 30);
+            margin-top: 20px;
+            margin-right: 30px;
+            text-align: justify;
+        }
+
+        .complemento{
+            font-weight: 700;
+            font-size: 18px;
+        }
+
+        .pdf{
+            width: 65px;
+        }
+
+    </style>
 </head>
 <body>
-    <h1>CAP UFRJ</h1>
+    <header>
+        <h1>CAP UFRJ</h1>
+    </header>
+
+    <h3>IMAGENS DO CAMPUS</h3>
+    <div class="img">
+        <img class="foto"src="https://ogimg.infoglobo.com.br/in/10948866-7a8-c88/FT1086A/2013-667822150-2013112800275.jpg_20131128.jpg">
+        <img class="foto" src="https://www.meiahora.com.br/_midias/jpg/2023/02/17/764x428/1_eei_ufrj_1-28132366.jpg">
+        <img class="foto" src="https://odia.ig.com.br/_midias/jpg/2021/11/05/9ee28f01f100eeeb1372f6866ddd0d3a_xl-23493205.jpg">
+        <img class="foto" src="https://img.r7.com/images/2015/03/10/uwrfzp291_1mno63gjzq_file.jpg?dimensions=460x305&resize=460x305&crop=780x517+0+0">
+    </div>
+
+    <h3>EDITAL CAP UFRJ</h3>
+    <div class="edital">
+        <a href="../pdfs/edital_capufrj.pdf"><img src="../images/pdf.png" class="pdf"></a>
+    </div>
+
+    <h3>SAIBA MAIS SOBRE OS CURSOS TÉCNICOS</h3>
+    <div class="cursos">
+        <h4 class="amarelo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt debitis, voluptatibus assumenda architecto nesciunt pariatur laboriosam dolorem ut quo aliquid ipsum accusantium vero ratione sunt fugiat est rem voluptates ex.</h4>
+        <p class="complemento">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id iure earum delectus suscipit magni debitis quia similique quam ullam, ex adipisci quibusdam, fuga repellendus, vero illo impedit ducimus dignissimos ab.</p>
+
+        <h4 class="amarelo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt debitis, voluptatibus assumenda architecto nesciunt pariatur laboriosam dolorem ut quo aliquid ipsum accusantium vero ratione sunt fugiat est rem voluptates ex.</h4>
+        <p class="complemento">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id iure earum delectus suscipit magni debitis quia similique quam ullam, ex adipisci quibusdam, fuga repellendus, vero illo impedit ducimus dignissimos ab.</p>
+
+        <h4 class="amarelo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt debitis, voluptatibus assumenda architecto nesciunt pariatur laboriosam dolorem ut quo aliquid ipsum accusantium vero ratione sunt fugiat est rem voluptates ex.</h4>
+        <p class="complemento">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id iure earum delectus suscipit magni debitis quia similique quam ullam, ex adipisci quibusdam, fuga repellendus, vero illo impedit ducimus dignissimos ab.</p>
+    </div>
 </body>
 </html>
